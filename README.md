@@ -2,9 +2,19 @@
 
 Repository for my Alfred workflows. Currently only one:
 
+### Why I made this
+
+Pivotal Tracker's in-app notifications bar doesn't have an Archive button. This makes email better because I can archive and even snooze.
+
+Since I use email instead of the notifcations bar, I use the in-app search a lot to look for a specific issue by searching for its ID e.g. `#12345678`. Each Pivotal Tracker notification email contains a permalink URL to the issue but it's very frustrating that in order to get just the ID itself, I have to manually paste the URL somewhere and trim away everything except the ID. I have better things to do with my time.
+
+I could just click on the URL in the notification emails but I'd end up with multiple browser tabs for Pivotal Trackers. Also, sometimes I want to open two issues in the same tab at the same time.
+
+This is why I wrote this solution. As a bonus, it works in any app including Slack.
+
 ## Pivotal Tracker ID Scrubber
 
-This workflow finds the Pivotal Tracker story ID in any text and copies it to clipboard. The code for this is very simple.
+This workflow finds the Pivotal Tracker story ID in any selected text and copies it to clipboard. The code for this is very simple.
 
 ``` ruby
 require 'uri'
@@ -31,8 +41,3 @@ Double-click on the Workflow.
 1. Select any text in any app at least one URL
 2. Press Ctrl-Opt-Cmd-P
 
-### Why I made this
-
-I got annoyed at having to manually select the story ID in a Pivotal Tracker email notification because I didn't want to deal with so many open Pivotal Tracker tabs.
-
-The alternative was to use Pivotal Tracker's in-app notifications in the menu bar but I hated that they don't have an Archive feature. I prefer email because I can snooze, etc.

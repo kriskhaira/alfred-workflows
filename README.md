@@ -8,7 +8,7 @@ Pivotal Tracker's in-app notifications bar doesn't have an Archive button. This 
 
 Since I use email instead of the notifcations bar, I use the in-app search a lot to look for a specific issue by searching for its ID e.g. `#12345678`. Each Pivotal Tracker notification email contains a permalink URL to the issue but it's very frustrating that in order to get just the ID itself, I have to manually paste the URL somewhere and trim away everything except the ID. I have better things to do with my time.
 
-I could just click on the URL in the notification emails but I'd end up with multiple browser tabs for Pivotal Trackers. Also, sometimes I want to open two issues in the same tab at the same time.
+I could just click on the URL in the notification emails but I'd end up with multiple browser tabs for Pivotal Tracker. Also, sometimes I want to expand two issues in the same tab at the same time.
 
 This is why I wrote this solution. As a bonus, it works in any app including Slack.
 

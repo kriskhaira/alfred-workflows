@@ -38,6 +38,7 @@ Double-click on the Workflow.
 
 ### Using
 
-1. Select any text in any app at least one URL
+1. Select any blob of text in any app with at least one URL
 2. Press Ctrl-Opt-Cmd-P
 
+The story ID will be copied to your clipboard, prepended with a `#`.

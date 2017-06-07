@@ -1,6 +1,10 @@
 # alfred-workflows
 
-Repository for my Alfred workflows. Currently only one:
+Repository for my Alfred workflows. Currently only one workflow here but will add more later.
+
+## Pivotal Tracker ID Scrubber
+
+This workflow finds the Pivotal Tracker story ID in any selected text and copies it to clipboard.
 
 ### Why I made this
 
@@ -12,9 +16,9 @@ I could just click on the URL in the notification emails but I'd end up with mul
 
 This is why I wrote this solution. As a bonus, it works in any app including Slack.
 
-## Pivotal Tracker ID Scrubber
+### How it works
 
-This workflow finds the Pivotal Tracker story ID in any selected text and copies it to clipboard. The code for this is very simple.
+The code for this is very simple.
 
 ``` ruby
 require 'uri'
